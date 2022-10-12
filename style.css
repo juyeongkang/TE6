@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;800&display=swap');
+
+h1 {
+  font-family: 'Karla', cursive;
+  font-size: 20px;
+}
+
+p {
+  font-family: 'Karla', sans-serif;
+  font-size: 12px;
+}
+
+.button {
+  background-color: #BB5FF5;
+  font-family: 'Inconsolata', monospace;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  color: white;
+  padding: 16px 30px;
+  text-align: center;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: move;
+}
+
+.button:hover {
+  opacity: 1;
+}
